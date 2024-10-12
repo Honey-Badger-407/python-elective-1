@@ -5,7 +5,7 @@ c = int(input("Input third number: "))
 if a == b == c:
     print("Numbers are equal")
 
-elif a in (b, c) or b == c:
+elif a == b or a == c or b == c:
     print("Two numbers are equal")
 
 greatest = max(a, b, c)
